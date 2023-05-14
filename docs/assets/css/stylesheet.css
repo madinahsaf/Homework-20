@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+ background-color:#393939;
+ color: white; 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+ }
+ 
+ nav ul {
+   list-style-type: none;
+   display: flex;
+   gap: 1rem;
+   margin: 2rem;
+   
+ }
+ 
+ nav ul li a {
+   text-decoration: none;
+   color: white;
+ }
+ 
+ logo-img {
+  width: 100px;
+  height: 10px;
+ }
+/* body section */
+
+.hs-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+ .hs-heading {
+font-size: 3.5em;
+display: inline;
+margin-top: 50px;
+}
+
+.hs-img {
+display: flex;
+justify-content: flex-end;
+
+}
+
+.grid {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  align-items: center;
+  gap: 0.5em;
+}
+
+
+.number-circle {
+border-radius: 60%;
+width: 8px;
+height: 5px;
+padding: 15px;
+background: #fff;
+border: 2px solid #666;
+color: #666;
+text-align: center;
+font: 13px Arial, sans-serif;
+text-decoration: none;
+line-height: 10px;
+}
+
+.progress-bar {
+  display: flex;
+  background-color: #2C8C7B ;
+  height: 200px;
+}
+
+.progress-bar .pb-heading {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
