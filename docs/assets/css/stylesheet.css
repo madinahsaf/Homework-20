@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
+.wrapper {
+  width: 1220px;
+  margin: 0 auto;
+}
+
 body {
   background-color: #393939;
   color: white;
@@ -138,10 +143,11 @@ nav ul li a {
 
 .footer-container .wrapper {
   justify-content: space-evenly;
+  padding: 10px;
 }
 
-.footer-text h2 {
-  margin: 0;
+.footer-text  {
+  margin-left: 100px;
 }
 
 #foot-email {
